@@ -24,3 +24,30 @@ if age <= 0:
     print("this is not possible")
 
 print("program is still continue till end")
+
+
+
+number = int(input("Enter a number: "))
+if number > 0:
+    print("Positive number")
+print("this is after first if")
+if number == 0:
+    print("Number is zero")
+print("this is after second if")
+if number < 0:
+    print("Negative number")
+print("this is after third if")
+
+
+
+password = str(input("Enter your password: "))
+
+if len(password) >= 8:
+    print("Strong password")
+print("after first if")
+
+if len(password) < 8:
+    print("Weak password")
+print("after second if")
+
+print("program is still continue till end")
