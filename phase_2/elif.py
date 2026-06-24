@@ -11,7 +11,7 @@
 # else:
     # code
 
-
+# Example 1
 num = int(input("Enter a number: "))
 if num == 0:
     print("The number is zero")
@@ -22,7 +22,10 @@ else:
 
 print("program is still continue till end")
 
-day = int(input("Enter a day: "))
+
+
+# Example 2
+day = int(input("Enter a day(1-7): "))
 if day == 1:
     print("Monday")
 elif day == 2:
@@ -43,7 +46,7 @@ else:
 print("program is still continue till end")
 
 
-
+# Example 3
 marks = int(input("Enter your marks: "))
 if marks >= 90:
     print("Grade A+")
@@ -60,6 +63,7 @@ else:
     
 
 
+# Example 4
 light = input("Enter the light color: ")
 if light == "red":
     print("Stop")
