@@ -8,7 +8,7 @@
     # runs if condition is False
 
 
-
+# Example 1
 age = int(input("Enter your age: "))
 if age >= 18:
     print("You are eligible for voting")
@@ -26,11 +26,13 @@ else:
 
 if age <= 0:
     print("this is not possible")
-else:
-    print("this is possible")
+
 
 print("program is still continue till end")
 
+
+
+# Example 2
 num = int(input("Enter a number: "))
 if num % 2 == 0:
     print("The number is even")
@@ -42,6 +44,8 @@ else:
 print("program is still continue till end")
 
 
+
+# Example 3
 marks = int(input("Enter your marks: "))
 if marks >= 50:
     print("Pass")
@@ -49,14 +53,18 @@ else:
     print("Fail")
 
 
+
+# Example 4
 username = input("Enter your username: ")
-if username == "admin":
+if username.lower() == "admin":
     print("Access granted")
 else:
     print("Access denied")
 
 
 
+
+# Example 5
 balance = int(input("Enter your balance: "))
 if balance >= 1000:
     print("Withdrawal allowed")
@@ -66,6 +74,7 @@ else:
 
 
 
+# Example 6
 temperature = int(input("Enter your temperature: "))
 if temperature > 30:
     print("It is hot.")
