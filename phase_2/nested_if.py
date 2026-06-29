@@ -11,6 +11,7 @@
 
 
 
+# Example 1:
 age = int(input("Enter your age: "))
 if age >= 18:
     print("You are eligible for voting")
@@ -27,7 +28,7 @@ print("program is still continue till end")
 
 
 
-
+# Example 2:
 balance = int(input("Enter your balance: "))
 amount = int(input("Enter your amount: "))
 if balance > 0:
@@ -41,6 +42,7 @@ else:
 
 
 
+# Example 3:
 marks = int(input("Enter your marks: "))
 attendance = int(input("Enter your attendance: "))
 if marks >= 50:
@@ -57,6 +59,7 @@ else:
 
 
 
+# Example 4:
 age = int(input("Enter your age: "))
 has_id_card = input("Do you have ID card? (yes/no): ")
 if age >= 18:
@@ -78,6 +81,7 @@ else:
 
 
 
+# Example 5:
 username = input("Enter your username: ")
 password = input("Enter your password: ")
 if username == "admin":
