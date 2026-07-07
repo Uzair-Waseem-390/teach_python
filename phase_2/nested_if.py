@@ -27,7 +27,6 @@ else:
 print("program is still continue till end")
 
 
-
 # Example 2:
 balance = int(input("Enter your balance: "))
 amount = int(input("Enter your amount: "))
