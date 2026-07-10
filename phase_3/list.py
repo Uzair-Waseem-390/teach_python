@@ -104,3 +104,24 @@ a = lis1.sorted()
 print(a) # Print the sorted list
 
 
+# difference between del, pop and remove
+
+# del
+del lis1[2]  # Delete the item at index 0
+print(lis1) # Print the list after deleting the item at index 0
+del lis6 # Delete the list
+
+
+# pop
+a = lis1.pop() # Remove the last item
+print(a) # Print the removed item
+print(lis1) # Print the list after removing the last item
+a = lis1.pop(0) # Remove the item at index 0
+print(a) # Print the removed item
+print(lis1) # Print the list after removing the item at index 0
+
+
+
+# remove
+print(lis1.remove(2)) # Remove the value 2
+print(lis1) # Print the list after removing the value 2
