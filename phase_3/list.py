@@ -63,6 +63,11 @@ a = lis1[::-1]
 print(a) # Reverse a list
 
 
+# List Concatenation
+lis1 = lis1 + [15, 16, 17] # Concatenate two lists
+print(lis1) # Print the concatenated list
+
+
 
 # list methods
 print(lis1.index(2)) # Index of the value 2
@@ -97,3 +102,5 @@ print(lis1.reverse()) # Reverse the list
 print(lis1.sorted()) # Return a sorted copy of the list
 a = lis1.sorted()
 print(a) # Print the sorted list
+
+
