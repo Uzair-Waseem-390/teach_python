@@ -96,8 +96,10 @@ print(a) # Print the removed item
 print(lis1.remove(2)) # Remove the value 2
 
 print(lis1.sort()) # Sort the list
+print(lis1)
 
 print(lis1.reverse()) # Reverse the list
+print(lis1)
 
 print(lis1.sorted()) # Return a sorted copy of the list
 a = lis1.sorted()
