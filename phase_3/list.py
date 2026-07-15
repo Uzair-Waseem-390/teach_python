@@ -127,3 +127,16 @@ print(lis1) # Print the list after removing the item at index 0
 # remove
 print(lis1.remove(2)) # Remove the value 2
 print(lis1) # Print the list after removing the value 2
+
+
+
+
+# Searching in list
+lis = [1,2,3,4,5,6,7,8,9,10]
+
+if 2 in lis:
+    print("Present")
+
+
+if 2 not in lis:
+    print("Not Present")
