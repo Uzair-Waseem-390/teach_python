@@ -2,12 +2,12 @@
 # it is used to make decision 
 # for example if it rains then take umbrella otherwise not
 
-# syntax: 
-#if condition:
-#    statement1
-#    statement2
-#    statement3
-#    ...
+# # syntax: 
+# if condition:
+#     statement1
+#     statement2
+#     statement3
+#     ...
 
 # in python code must be indent  by the same number of spaces to show that it is inside the if statement   
 
@@ -17,6 +17,7 @@ if age >= 18:
     print("You can drive")
 
 print("This is after first if")
+# exit()
 
 if age < 18:
     print("You are not eligible for voting")
@@ -33,7 +34,7 @@ if age <= 0:
     print("this is not possible")
 
 print("program is still continue till end")
-# exit()
+exit()
 
 # Example 2
 number = int(input("Enter a number: "))

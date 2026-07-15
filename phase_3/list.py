@@ -17,7 +17,7 @@ lis5 = list() # Empty list using list constructor
 lis6 = [1, "hello", 3.14, True] # list with different data types or heterogeneous data types
 lis7 = [[1,2], [3,4], [5,6]] # Nested list
 
-
+lis1 = [1,2,3,4,5]
 # How to access list items
 print(lis1[0])  # First item
 print(lis1[1])  # Second item
@@ -30,19 +30,21 @@ a = lis1[1]
 print(a) # Print the value of second item
 
 
+lis1 = [1,2,3,4,5]
 # Change list items
 lis1[0] = 10
 print(lis1)   # change the value of first item
 list2 = ["banana", "cherry", "mango"]
 list2[2] = "orange"
 print(list2)  # change the value of first item
+# exit()
 
 
 
-
-
+lis1 = [1,2,3,4,5]
 # Add list items
 lis1.append(6)
+lis1.append("hello")
 print(lis1)   # add the value of 6 to the end of the list
 lis1.insert(1, 10)
 print(lis1)   # insert the value of 10 at index 1
@@ -55,6 +57,7 @@ print(lis1)   # insert the value of 14 at the end of the list
 
 
 # Slicing a list
+lis1 = [1,2,3,4,5]
 print(lis1[1:3]) # Slicing a list from index 1 to 3 (exclusive)
 print(lis1[:3]) # Slicing a list from index 0 to 3 (exclusive)
 print(lis1[3:]) # Slicing a list from index 3 to the end
