@@ -4,7 +4,7 @@
 """
 1. int (integers) -> 15
 2. float (floating point numbers) -> 15.99
-3. str (strings) -> "Uzair"
+3. str (strings) -> "Uzair43432432@#%%%$"
 4. bool (boolean) -> True or False
 """
 
