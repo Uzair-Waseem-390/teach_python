@@ -3,13 +3,13 @@
 # if condition is true then if block is execute
 
 # if condition:
-    # runs if condition is True
+#     runs if condition is True
 # else:
-    # runs if condition is False
+#     runs if condition is False
 
 
 # Example 1
-age = int(input("Enter your age: "))
+age = int(input("Enters your age: "))
 if age >= 18:
     print("You are eligible for voting")
     print("You can drive")
