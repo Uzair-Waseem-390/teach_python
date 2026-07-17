@@ -70,7 +70,7 @@ print(a) # Reverse a list
 lis1 = lis1 + [15, 16, 17] # Concatenate two lists
 print(lis1) # Print the concatenated list
 
-
+lis1 = [1,2,3,4,5,6,7]
 
 # list methods
 print(lis1.index(2)) # Index of the value 2
@@ -137,7 +137,7 @@ print(lis1) # Print the list after removing the value 2
 # Searching in list
 lis = [1,2,3,4,5,6,7,8,9,10]
 
-if 2 in lis:
+if 1000 in lis:
     print("Present")
 
 
