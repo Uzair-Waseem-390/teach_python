@@ -3,24 +3,24 @@
 # for example if it rains then take umbrella otherwise not
 
 # if condition1:
-    # code
+#     code
 # elif condition2:
-    # code
+#     code
 # elif condition3:
-    # code
+#     code
 # else:
-    # code
+#     code
 
-# Example 1
-num = int(input("Enter a number: "))
-if num == 0:
-    print("The number is zero")
-elif num > 0:
-    print("The number is positive")
-else:
-    print("The number is negative")
+# # Example 1
+# num = int(input("Enter a number: "))
+# if num == 0:
+#     print("The number is zero")
+# elif num > 0:
+#     print("The number is positive")
+# else:
+#     print("The number is negative")
 
-print("program is still continue till end")
+# print("program is still continue till end")
 
 
 
@@ -44,7 +44,7 @@ else:
     print("Invalid day")
 
 print("program is still continue till end")
-
+exit()
 
 # Example 3
 marks = int(input("Enter your marks: "))
