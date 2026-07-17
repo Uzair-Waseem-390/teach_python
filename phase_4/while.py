@@ -80,3 +80,45 @@ while count < 5:
     print(count)
     # forgot count += 1 here -> this loop NEVER ends
 """
+
+
+# do-while loop
+"""
+Some languages (like C, C++, Java) have a special "do-while" loop:
+    - it runs the loop body FIRST, and checks the condition AFTER
+    - this guarantees the body runs at least ONCE, even if the condition is False
+      from the very start
+
+Python does NOT have a built-in do-while keyword.
+A normal while loop checks the condition BEFORE running the body (entry-controlled),
+so if the condition is False on the first check, the body never runs even once.
+
+We simulate a do-while loop in Python using: while True + break
+"""
+
+# do-while style loop -> runs at least once, then checks the condition
+while True:
+    num = 7
+    print("This runs at least once, num =", num)
+    if num > 5:      # the "condition" is checked AFTER the body has already run
+        break         # exit once the condition is satisfied
+
+
+# Practical example - keep asking for input until it's valid (do-while pattern)
+"""
+while True:
+    age = input("Enter your age: ")
+    if age.isdigit():          # runs at least once before we ever check the input
+        print("Valid age:", age)
+        break
+    print("Invalid input, try again")
+"""
+
+
+# do-while vs normal while
+"""
+while (normal)        -> condition checked BEFORE the body -> body may run ZERO times
+do-while (simulated)  -> condition checked AFTER the body  -> body runs AT LEAST ONCE
+
+Python's while True + break inside is the standard idiom used to get do-while behavior.
+"""
