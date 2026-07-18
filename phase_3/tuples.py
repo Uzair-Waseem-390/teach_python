@@ -18,11 +18,11 @@ tup5 = tuple()                                          # Empty tuple using tupl
 tup6 = (1, "hello", 3.14, True)                         # tuple with different data types
 tup7 = ((1, 2), (3, 4), (5, 6))                          # Nested tuple
 
-single = (5,)     # a single item tuple MUST have a trailing comma
+single = (5,)     # a single item tuple MUST have a trailing common
 not_a_tuple = (5)  # this is just an int in parentheses, NOT a tuple
 print(type(single))       # <class 'tuple'>
 print(type(not_a_tuple))  # <class 'int'>
-
+# exit()
 
 # How to access tuple items
 tup1 = (1, 2, 3, 4, 5)

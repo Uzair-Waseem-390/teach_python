@@ -32,7 +32,7 @@ print(type(age))
 print(type(height))
 print(type(Is_student))
 
-print(name == "uzair")
+print(name == "uzair1")
 exit()
 
 
