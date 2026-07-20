@@ -6,11 +6,11 @@
 # syntex
 # match variable:
     # case value1:
-        # code
+    #     code
     # case value2:
-        # code
+    #     code
     # case _:
-        # default code
+    #     default code
 
 # Here, _ acts like the default case.
 # default case executes when no match is found (no other case is executed)
