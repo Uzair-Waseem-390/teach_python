@@ -29,6 +29,10 @@ Question 1: List Slicing
 Create a list of numbers from 1 to 10. Print the first 3 numbers, the last 3 numbers,
 and every 2nd number using slicing.
 """
+list=[1,2,3,4,5,6,7,8,9,10]
+print(list[0:3:])
+print(list[-4:-1])
+
 
 """
 Question 2: List Methods
@@ -36,7 +40,11 @@ Create a list of 5 city names. Use .index() to find the position of one city,
 .count() to count how many times a city appears, and .copy() to make a duplicate
 of the list. Print all three results.
 """
-
+list=["lahore", "faisalabad", "karachi", "multan", "islamabad"]
+print(list.index("islamabad"))
+print(list.count("lahore"))
+list2=(list.copy())
+print(list2)
 """
 Question 3: Tuple Unpacking
 Create a tuple with 4 subject names. Unpack the first two subjects into separate
@@ -45,7 +53,7 @@ Print all the variables.
 """
 
 """
-Question 4: Set Uniqueness
+Question 4:set Uniqueness
 Ask the user to enter 10 numbers one by one (using a loop or input().split()).
 Store them in a set and print how many UNIQUE numbers were entered.
 """
