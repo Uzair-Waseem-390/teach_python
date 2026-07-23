@@ -53,7 +53,7 @@ Print all the variables.
 """
 
 """
-Question 4:set Uniqueness
+Question 4: Set Uniqueness
 Ask the user to enter 10 numbers one by one (using a loop or input().split()).
 Store them in a set and print how many UNIQUE numbers were entered.
 """
